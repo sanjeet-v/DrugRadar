@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DrugRadar</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <img src="https://cdn.discordapp.com/attachments/1091569594046623824/1097200448538165418/DrugRadar-removebg-preview.png" alt="DrugRadar logo">
+
+    <div class = "white">
+      <label>Drug 1:</label>
+      <input id = "user-input1" type="text" placeholder="Ex: Acetaminophen 325mg" value="" />
+    </div>
+    <div class = "white">
+      <label>Drug 2:</label>
+      <input id = "user-input2" type="text" placeholder="Ex: Tamoxifen 10mg" value="" />
+    </div>
+    <button id = "enter-button" onclick= "fetchData()">
+      Submit
+    </button>
+    <div class="white output-container">
+      <h2 id = "header-output">Output:</h2>
+      <pre id = "drug-interaction"></pre>
+    </div>
+    <button id = "reset-button" onclick="clearData()">
+      Reset
+    </button>
+ 
+  <script src="main.js"></script>
+</body>
+</html>
