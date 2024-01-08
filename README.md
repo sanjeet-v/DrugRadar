@@ -12,6 +12,11 @@ Our application checks for potential interactions and side effects of user medic
 
 ## Authors
 
-- [@sanjeet-v](https://www.github.com/sanjeet-v)
+- [@sanjeet-v](https://www.github.com/octokatherine)
 - [@aksharaganapathi](https://github.com/aksharaganapathi)
 - [@adithg](https://github.com/adithg)
+
+
+## Demo
+
+![](https://github.com/sanjeet-v/DrugRadar/blob/main/ezgif.com-crop.gif)
