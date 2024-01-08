@@ -9,13 +9,13 @@
 <body>
   <img src="https://cdn.discordapp.com/attachments/1091569594046623824/1097200448538165418/DrugRadar-removebg-preview.png" alt="DrugRadar logo">
   <div>
-    <div class = "user-input">
+    <div >
       <label>Drug 1:</label>
-      <input type="text" placeholder="Ex: Acetaminophen 325mg" value="" />
+      <input id = "user-input1" type="text" placeholder="Ex: Acetaminophen 325mg" value="" />
     </div>
-    <div class = "user-input">
+    <div >
       <label>Drug 2:</label>
-      <input type="text" placeholder="Ex: Tamoxifen 10mg" value="" />
+      <input id = "user-input2" type="text" placeholder="Ex: Tamoxifen 10mg" value="" />
     </div>
     <button id = "enter-button" onclick= "fetchData()">
       Submit
@@ -24,7 +24,7 @@
       <h2 id = "header-output">Output:</h2>
       <pre id = "drug-interaction"></pre>
     </div>
-    <button id = "reset-button">
+    <button id = "reset-button" onclick="clearData()">
       Reset
     </button>
   </div>

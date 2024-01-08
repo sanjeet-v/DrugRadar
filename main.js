@@ -1,7 +1,7 @@
 
 async function fetchData(){ 
-    const drugOne = 'tylenol';
-    const drugTwo = 'adivil'; 
+    const drugOne = document.querySelector("#user-input1").value;
+    const drugTwo = document.querySelector("#user-input2").value;
     const response = await fetch('https://api.respell.ai/v1/run', {
     method: 'POST',
     headers: {
@@ -22,6 +22,15 @@ async function fetchData(){
     }),
     });
     const data = await response.json();
-    document.getElementById("drug-interaction").innerHTML = JSON.stringify(data.outputs);
+    document.getElementById("drug-interaction").innerHTML = JSON.stringify(data.outputs.output);
+
+
     console.log(data); // Do something with the response data
+}
+
+function clearData(){ 
+    document.getElementById("drug-interaction").innerHTML = ""; 
+    document.getElementById("user-input1").value = "";
+    document.getElementById("user-input2").value = "";
+
 }
