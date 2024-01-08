@@ -22,7 +22,8 @@ async function fetchData(){
     }),
     });
     const data = await response.json();
-    document.getElementById("drug-interaction").innerHTML = JSON.stringify(data.outputs.output);
+    const outputText = data.outputs.output;
+    document.getElementById("drug-interaction").innerHTML = outputText; 
 
 
     console.log(data); // Do something with the response data
