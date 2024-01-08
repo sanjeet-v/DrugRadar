@@ -12,6 +12,6 @@ Our application checks for potential interactions and side effects of user medic
 
 ## Authors
 
-- [@sanjeet-v](https://www.github.com/octokatherine)
+- [@sanjeet-v](https://www.github.com/sanjeet-v)
 - [@aksharaganapathi](https://github.com/aksharaganapathi)
 - [@adithg](https://github.com/adithg)
