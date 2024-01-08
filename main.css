@@ -1,2 +1,67 @@
+body {
+   font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0; /* Remove default body margin */
+  padding: 0;
+}
+
+.white {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 50px;
+  padding-right: 35px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.output-container {
+  margin-top: 20px;
+}
+
+#drug-interaction {
+  white-space: pre-wrap;
+  font-family: 'Courier New', monospace;
+}
+
+#reset-button {
+  margin-top: 10px;
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+#reset-button:hover {
+  
+  background-color: #c0392b;
+}
+
+/* Add more styles as needed */
 
 
